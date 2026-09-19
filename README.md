@@ -17,7 +17,7 @@ None. Python 3.6+, standard library only. No dependencies, no network access,
 no telemetry — it reads local files and prints to stdout.
 
 ```
-curl -O https://raw.githubusercontent.com/coldemailtool/dmarc-report-parser/main/dmarc_report.py
+curl -O https://raw.githubusercontent.com/coldemailmarketing/dmarc-report-parser/main/dmarc_report.py
 chmod +x dmarc_report.py
 ```
 
@@ -84,7 +84,7 @@ newsletter, and anything a vendor sends on your behalf.
 
 ## Related
 
-- [spf-audit](https://github.com/coldemailtool/spf-audit) — counts every
+- [spf-audit](https://github.com/coldemailmarketing/spf-audit) — counts every
   `v=spf1` record and walks the whole include tree for the ten-lookup limit
 - [Free SPF, DKIM and DMARC checker](https://emailcampaign.ai/tools/dns-checker)
   — the same checks against live DNS, in a browser
